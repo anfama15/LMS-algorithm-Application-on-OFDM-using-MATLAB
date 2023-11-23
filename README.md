@@ -19,11 +19,3 @@ In summary, the code generates a random signal data for polar signaling and simu
 ofdmaz.m
 This code generates several plots to visualize the performance of an OFDM system with an LMS filter applied. Here is a breakdown of what each part of the code does:
 
-Figure(2): This code generates a stem plot of the absolute value of the channel frequency response. This plot shows the subchannel gains for each subcarrier in the OFDM system.
-Figure(3): This code generates a 2x2 subplot figure that shows various plots related to the mixed OFDM signal and the filtered subchannel output. The four plots are as follows:
-Subplot (221): This plot shows the mixed OFDM signal without I/Q imbalance for subchannel 1. It is a scatter plot of the real and imaginary components of the output symbols.
-Subplot (222): This plot shows the mixed OFDM signal with I/Q imbalance for subchannel 10. It is a scatter plot of the real and imaginary components of the output symbols.
-Subplot (223): This plot shows the filtered output of subchannel 1 after passing through an LMS filter. It is a scatter plot of the real and imaginary components of the output symbols.
-Subplot (224): This plot shows the mixed OFDM signal for all subchannels. It is a scatter plot of the real and imaginary components of the output symbols.
-Figure(4): This code generates a plot of the average symbol error rate (SER) versus the signal-to-noise ratio (SNR) for three different scenarios: an ideal channel, using all subcarriers, and disabling five poor subcarriers. The plot shows how disabling poor subcarriers can improve the SER performance.
-Figure(5): This code generates a scatter plot of the real and imaginary components of the output symbols for subchannel 1. This plot shows the constellation diagram of the output symbols.
